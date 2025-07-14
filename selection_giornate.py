@@ -43,34 +43,37 @@ if __name__ == "__main__":
         {
             "fp_XYZ": 2270.25,
             "fp_PallaPazza": 2268.5,
-            "fp_soros": 2239,
+            "fp_Soros": 2239,
             "fp_PDG": 2202.5,
             "fp_Mainz": 2233.5,
-            "fp_ignoranza": 2173.75,
+            "fp_Ignoranza": 2173.75,
             "fp_800a": 2138,
-            "diseredati": 2062.25,
+            "fp_Diseredati": 2062.25,
         },
         {
             "fp_XYZ": 2338.25,
-            "fp_soros": 2305.5,
+            "fp_Soros": 2305.5,
             "fp_PallaPazza": 2340.25,
             "fp_PDG": 2275.25,
             "fp_Mainz": 2302.25,
-            "fp_ignoranza": 2303,
+            "fp_Ignoranza": 2303,
             "fp_800a": 2206.5,
-            "diseredati": 2125.5,
+            "fp_Diseredati": 2125.5,
         },
         {
             "fp_XYZ": 2407.5,
-            "fp_soros": 2385.5,
+            "fp_Soros": 2385.5,
             "fp_PallaPazza": 2405.25,
             "fp_PDG": 2344.75,
             "fp_Mainz": 2371.5,
-            "fp_ignoranza": 2303,
+            "fp_Ignoranza": 2303,
             "fp_800a": 2253.75,
-            "diseredati": 2183.5,
+            "fp_Diseredati": 2183.5,
         },
     ]
+
+    for index, variables in enumerate(variables_by_giornata):
+        variables_by_giornata[index] = {team: variables[team] for team in sorted(variables)}
 
     for variables in variables_by_giornata:
         variables["fp_totali"] = sum(variables.values())
