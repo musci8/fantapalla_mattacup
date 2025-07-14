@@ -41,26 +41,6 @@ if __name__ == "__main__":
 
     variables_by_giornata = [
         {
-            "fp_XYZ": 2270.25,
-            "fp_PallaPazza": 2268.5,
-            "fp_Soros": 2239,
-            "fp_PDG": 2202.5,
-            "fp_Mainz": 2233.5,
-            "fp_Ignoranza": 2173.75,
-            "fp_800a": 2138,
-            "fp_Diseredati": 2062.25,
-        },
-        {
-            "fp_XYZ": 2338.25,
-            "fp_Soros": 2305.5,
-            "fp_PallaPazza": 2340.25,
-            "fp_PDG": 2275.25,
-            "fp_Mainz": 2302.25,
-            "fp_Ignoranza": 2303,
-            "fp_800a": 2206.5,
-            "fp_Diseredati": 2125.5,
-        },
-        {
             "fp_XYZ": 2407.5,
             "fp_Soros": 2385.5,
             "fp_PallaPazza": 2405.25,
